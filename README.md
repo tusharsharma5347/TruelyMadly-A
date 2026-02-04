@@ -3,6 +3,7 @@
 A multi-agent AI assistant that plans, executes, and verifies tasks using LLMs and real tools.
 
 ## Structure
+- `ai_ops_agent`: Root Directory under assignment as specified.
 - `agents/`: Core agent logic (Planner, Executor, Verifier).
 - `tools/`: Tool definitions (GitHub, Weather).
 - `llm/`: LLM client abstraction.
@@ -22,7 +23,7 @@ To run this assistant locally without API fees, we use **Ollama**.
 2. Download the macOS version.
 3. Install and run the application.
 
-**Option B: Install via Homebrew**
+**Option B: Install via Homebrew(For MacOS)**
 ```bash
 brew install ollama
 brew services start ollama
