@@ -44,12 +44,8 @@ ollama run llama3
    ```
 
 2. **Configure Environment**:
-   Copy the example env file:
-   ```bash
-   cp .env.example .env
-   ```
    
-   Ensure `.env` matches your setup:
+   Copy these and ensure `.env` matches your setup:
    ```bash
    LLM_PROVIDER=local
    LLM_BASE_URL=http://localhost:11434/v1
